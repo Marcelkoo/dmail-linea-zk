@@ -1,0 +1,32 @@
+{
+    "NETWORK": "ZKSYNC",
+    "DELAY_MIN": 20,
+    "DELAY_MAX": 30,
+    "DELAY_WALLET_MIN": 50,
+    "DELAY_WALLET_MAX": 66,
+    "REPEAT_SEND_MIN": 2,
+    "REPEAT_SEND_MAX": 2,
+    "MAX_GWEI": 20,
+    "SHUFFLE_WALLETS": true,
+    "USE_PROXY": false,
+
+
+    "NETWORKS": {
+        "ZKSYNC": {
+            "HTTP_PROVIDER": "https://zksync-era.blockpi.network/v1/rpc/public",
+            "CHAIN_ID": 324,
+            "CONTRACT_ADDRESS": "0x981F198286E40F9979274E0876636E9144B8FB8E",
+            "EXPLORER_URL": "https://explorer.zksync.io/tx/"
+        },
+        "LINEA": {
+            "HTTP_PROVIDER": "https://linea.drpc.org",
+            "CHAIN_ID": 59144,
+            "CONTRACT_ADDRESS": "0xd1a3abf42f9e66be86cfdea8c5c2c74f041c5e14",
+            "EXPLORER_URL": "https://lineascan.build/tx/"
+        },
+        "ETH": {
+            "HTTP_PROVIDER": "https://eth.llamarpc.com"
+        }
+    }
+
+}
